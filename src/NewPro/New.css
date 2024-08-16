@@ -1,0 +1,158 @@
+.center {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 20px; 
+}
+
+.center h2 {
+  margin-bottom: 10px;
+}
+
+.center span {
+  color: #1591ea;
+}
+
+.center p {
+  max-width: 500px; 
+  margin: 0 auto; 
+  text-align: center;
+}
+
+
+.appBarMargin {
+    margin-bottom: 20px; 
+  }
+.con1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px; 
+    padding-left: 150px;
+}
+@keyframes colorTransition {
+    0% {
+      color: #000; 
+    }
+    50% {
+      color:#7b1113; 
+    }
+    100% {
+      color:#7b1113; 
+    }
+  }
+.con1 .head h2 span {
+    display: block;
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    line-height: 2.0; 
+    animation: colorTransition 5s infinite;
+  }
+  
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+  
+.image-container img {
+    max-width: 35%;
+    height: auto;
+}
+
+
+.head2 {
+  margin-left: 150px; 
+}
+
+/* Styling for span inside the head2 class */
+.head2 span {
+  color: #1591ea;
+}
+.card2-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background-color: #fff; 
+  overflow: hidden; 
+  line-height: 2.5; 
+}
+
+.card2-title {
+  color: #1591ea; 
+  transition: color 0.3s ease-in-out; 
+}
+
+.card2-description {
+  color: black; 
+  transition: color 0.3s ease-in-out; 
+}
+
+.card2-content:hover {
+  transform: scale(1.05);
+    background:linear-gradient(45deg,#2c67f2,#62cff4);
+    color: '#000';
+    text-transform: 'none';
+}
+
+.card2-content:hover .card2-title,
+.card2-content:hover .card2-description {
+  color: #fff; 
+}
+
+.card2img {
+  text-align: center;
+  max-height:250%;
+}
+
+
+.head3 {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 20px; 
+}
+
+.haed3 h2 {
+  margin-bottom: 10px;
+}
+
+.head3 span {
+  color: #1591ea;
+}
+
+.head3 p {
+  max-width: 500px; 
+  margin: 0 auto; 
+  text-align: center;
+}
+.custom-dashes {
+  border: none;
+  height: 3px;
+  width: 10px;
+  color:#1591ea;
+}
+.TextInBox {
+  border: 2px solid black;
+  padding: 100px;
+  margin-left: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 70%;
+  height: 170px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Asserts/static/backimg1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  background-blend-mode: darken; 
+}
+
+
+#last-h2{
+   font-size:x-large;
+   justify-content: center;
+
+}

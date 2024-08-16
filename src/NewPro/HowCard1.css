@@ -1,0 +1,32 @@
+.custom-card1 {
+    max-width: 285px;
+    margin: auto;
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 6px 12px 6px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    
+  }
+  
+  .custom-card-media1 {
+    height: 290px;
+    border-radius: 10px 10px 0 0; 
+  
+  }
+  
+  .custom-card-content1 {
+    position: relative;
+    border-radius: 0 0 10px 10px; 
+  }
+  .howbutton{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 45%;
+  }
+  
+  
+  
+  
+  
+  

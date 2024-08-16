@@ -1,0 +1,16 @@
+.footer {
+    background:linear-gradient(45deg,#2c67f2,#62cff4);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.footer-row span {
+    margin: 0 15px;
+    white-space: nowrap;
+}

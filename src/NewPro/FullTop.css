@@ -1,0 +1,31 @@
+.fullcon1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px; 
+    padding-left: 150px;
+}
+@keyframes colorTransition2 {
+    0% {
+      color: #000; 
+    }
+    50% {
+      color:#7b1113; 
+    }
+    100% {
+      color:#7b1113; 
+    }
+  }
+.fullhead span {
+    display: block;
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    line-height: 2.0; 
+    animation: colorTransition2 5s infinite;
+  }
+  
+#image-container3 img {
+    max-width: 40%;
+    height: auto;
+}

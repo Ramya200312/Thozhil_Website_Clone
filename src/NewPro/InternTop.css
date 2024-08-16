@@ -1,0 +1,28 @@
+.interncon1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px; 
+    padding-left: 150px;
+}
+@keyframes colorTransition3 {
+    0% {
+      color: #000; 
+    }
+    100% {
+      color:#FFC000; 
+    }
+  }
+.internhead span {
+    display: block;
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    line-height: 2.0; 
+    animation: colorTransition3 5s infinite;
+  }
+  
+#image-container4 img {
+    max-width: 40%;
+    height: auto;
+}

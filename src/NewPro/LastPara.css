@@ -1,0 +1,20 @@
+.headlast span{
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    animation: colorTransition 5s infinite;
+}
+.headlast {
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
+
+@keyframes colorTransition {
+    0% {
+      color: #000; 
+    }
+    100% {
+      color:#7b1113; 
+    }
+  }

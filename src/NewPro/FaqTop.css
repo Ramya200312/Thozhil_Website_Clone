@@ -1,0 +1,31 @@
+.faqcon1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px; 
+    padding-left: 150px;
+}
+@keyframes colorTransition1 {
+    0% {
+      color: #000; 
+    }
+    50% {
+      color:#8549a7; 
+    }
+    100% {
+      color:#8549a7; 
+    }
+  }
+.faqhead span {
+    display: block;
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    line-height: 2.0; 
+    animation: colorTransition1 5s infinite;
+  }
+  
+#image-container2 img {
+    max-width: 40%;
+    height: auto;
+}
